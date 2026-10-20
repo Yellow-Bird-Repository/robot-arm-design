@@ -1,0 +1,13 @@
+We have done our first assignment using MATLAB and Simulink. To properly run the project and see outputs, please follow the steps listed below:
+
+1. Open MATLAB and run the 'robot_tree' file.
+
+2. Open 'robot_2.slx' file in Simulink.
+
+3. Before running the 'robot_2.slx' in Simulink, please make sure that in 'Inverse Kinematics' block, DOF4_Arm is selected as rigid body tree, Body5 is selected as End effector and in Get Transform block, DOF4_Arm is selected as Rigid body tree, Body5 as Source body and Base as Target body. Run the 'robot_2.slx' file to observe its task. For details about the given task, please go through the 'Scenario' block.
+
+4. 'Workspace_analysis.m', 'DHtableGenerator.m', 'jacobian_analysis' and 'Workspace_singularity.m' files will show the workspace, DH table, Jacobian matrix and singularity points in the workspace, respectively.
+
+(Video file will show the painting task done by the robot. It will paint a vertical wall. To learn more about the robot, please find the 'robot.slx' file or double click on the 'full robot' block of 'robot_2.slx' file.)
+
+That's all. Thank you.
